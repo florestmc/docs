@@ -8,11 +8,15 @@
     "dark": "#171E2E"
   },
   "favicon": "/cdn/img/icons/favicon.png",
+  "logo": {
+    "light": "/cdn/img/icons/logo-light.png",
+    "dark": "/cdn/img/icons/logo-dark.png"
+  },
   "errors": {
     "404": {
       "redirect": false,
       "title": "Страница не существует :(",
-      "description": "Перепроверь написание ссылки!"
+      "description": "Перепроверьте написание ссылки!"
     }
   },
   "seo": {
@@ -26,37 +30,32 @@
         "tab": "Ссылки",
         "icon": "link",
         "pages": ["urls/index"]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Главный сайт",
-          "href": "https://florestmc.ru/",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Ссылки",
-          "href": "https://wiki.florestmc.ru/urls",
-          "icon": "link"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/cdn/img/icons/logo-light.png",
-    "dark": "/cdn/img/icons/logo-dark.png"
-  },
-  "navbar": {
-    "links": [
+      },
       {
-        "label": "Поддержка",
-        "href": "mailto:support@florestmc.ru"
+        "tab": "Главный сайт",
+        "icon": "globe",
+        "href": "https://florestmc.ru"
+      },
+      { 
+        "tab": "Гайды",
+        "icon": "book",
+        "pages": [
+          "guides/bedrock_pc",
+          "guides/bedrock_phone",
+          "guides/java_pc",
+          "guides/java_phone",
+          "guides/donate",
+          "guides/help",
+          "guides/map",
+          "guides/region",
+          "guides/voicechat"
+        ]
       }
     ]
   },
   "footer": {
     "socials": {
+      "website": "https://florestmc.ru",
       "telegram": "https://t.me/fmc_server"
     }
   }
