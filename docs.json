@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "FlorestMC Wiki",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3F544F",
+    "light": "#FB2561",
+    "dark": "#171E2E"
   },
   "favicon": "/cdn/img/icons/favicon.png",
   "errors": {
