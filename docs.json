@@ -21,12 +21,11 @@
     }
   },
   "navigation": {
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "Ссылки",
+        "tab": "Ссылки",
         "icon": "link",
-        "description": "Ссылки проекта FlorestMC",
-        "pages": "/urls/index"
+        "pages": ["urls/index"]
       }
     ],
     "global": {
