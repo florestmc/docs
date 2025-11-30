@@ -9,8 +9,8 @@
   },
   "favicon": "/cdn/icons/favicon.png",
   "logo": {
-    "light": "/cdn/icons/logo-light.png",
-    "dark": "/cdn/icons/logo-dark.png"
+    "light": "/cdn/icons/light.png",
+    "dark": "/cdn/icons/dark.png"
   },
   "errors": {
     "404": {
