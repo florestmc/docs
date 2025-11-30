@@ -35,7 +35,6 @@
         "tab": "Гайды",
         "icon": "book",
         "pages": [
-          "guides/index",
           "guides/bedrock_pc",
           "guides/bedrock_phone",
           "guides/java_pc",
