@@ -7,7 +7,7 @@
     "light": "#FB2561",
     "dark": "#171E2E"
   },
-  "favicon": "/cdn/icons/favicon.png",
+  "favicon": "/favicon.png",
   "errors": {
     "404": {
       "redirect": false,
@@ -23,16 +23,17 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Ссылки",
-        "icon": "link",
-        "pages": ["urls/index"]
+        "tab": "Информация",
+        "icon": "circle-info",
+        "pages": [
+          "game/providers"
+        ]
       },
       { 
         "tab": "Гайды",
         "icon": "book",
         "pages": [
-          "guides/bedrock_pc",
-          "guides/bedrock_phone",
+          "guides/index",
           "guides/java_pc",
           "guides/java_phone",
           "guides/register",
@@ -43,9 +44,9 @@
         ]
       },
       {
-        "tab": "Главный сайт",
-        "icon": "globe",
-        "href": "https://florestmc.ru"
+        "tab": "Ссылки",
+        "icon": "link",
+        "pages": ["urls/index"]
       }
     ]
   },
